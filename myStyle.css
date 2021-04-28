@@ -21,10 +21,12 @@ transition: transform 0.25s ease;
 
 }
     
-.NAME{
-  width:300px;
-  cursor: url("happy.png"), auto;
+h1{
+  font-family:Helvetica, sans-serif;
+  font-weight: 100;
+  Color:rgb(138, 189, 138);
   padding-bottom:20px;
+  padding-top:20px;
 
 }
 
@@ -65,10 +67,13 @@ transition: transform 0.25s ease;
       outline-style:none;
       font-size:14px;
       text-decoration:none;
-      font-style:italic;
+      font-weight: 100;
       padding-left:15px;
       cursor: url("happy.png"), auto;
   }
+  .menu:active{
+    font-size:16px;
+}
   pre{
       position:absolute;left:100px;
 
