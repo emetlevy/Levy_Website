@@ -22,7 +22,7 @@ transition: transform 0.25s ease;
 }
     
 .NAME{
-  width:300px;
+  width:100px;
   cursor: url("happy.png"), auto;
   padding-bottom:20px;
 
