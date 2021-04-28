@@ -21,7 +21,7 @@ transition: transform 0.25s ease;
 
 }
     
-.h1{
+h1{
   cursor: url("happy.png"), auto;
   padding-bottom:20px;
   color:grey;
