@@ -1,0 +1,77 @@
+
+.body{
+  background-image:none;
+  cursor: url("happy.png"), auto;
+  
+}
+.Container{
+  padding-top:40px;
+  padding-bottom:30px;
+}
+.mySlides {
+height: 375px;
+background: transparent no-repeat center;
+cursor: url("happy.png"), auto;
+transition: transform 0.25s ease; 
+
+}
+.mySlides:active{
+  transform: scale(2);
+  z-index:1;
+
+}
+    
+.NAME{
+  width:300px;
+  cursor: url("happy.png"), auto;
+  padding-bottom:20px;
+
+}
+
+.button_1{
+    font-style: italic;
+    border: none;
+    background: none;
+    color: grey;
+    font-size:15px;
+    padding-left:25px;
+    cursor: url("happy.png"), auto;   
+    padding-bottom:50px;
+}
+  
+  .button_2{
+       font-style: italic;
+    border: none;
+    background: none;
+    color: grey;
+    font-size:15px;
+    padding-left:25px;
+    cursor: url("happy.png"), auto;
+    padding-bottom:50px;
+}
+  .button_2:active{
+    color: black; 
+    cursor: url("happy.png"), auto;
+    font-size: 17px;
+  
+  }
+   .button_1:active{
+    color: black; 
+    cursor: url("happy.png"), auto;
+    font-size: 17px;
+  }
+  .menu{
+      color:orange;
+      outline-style:none;
+      font-size:14px;
+      text-decoration:none;
+      font-style:italic;
+      padding-left:15px;
+      cursor: url("happy.png"), auto;
+  }
+  pre{
+      position:absolute;left:100px;
+
+  }
+ 
+  
