@@ -21,10 +21,11 @@ transition: transform 0.25s ease;
 
 }
     
-.NAME{
-  width:300px;
+.Name{
   cursor: url("happy.png"), auto;
   padding-bottom:20px;
+  color:grey;
+  font-style:italic; 
 
 }
 
