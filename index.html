@@ -16,10 +16,16 @@
 <a style="text-decoration:underline;" class="menu" href="index.html" >Home</a>
 <a class="menu" href="CV.html">CV</a>
 <a class="menu" onclick="myFunction()">Contact</a>
-<script>
-function myFunction() {
-  
-  alert("emetlevy@gmail.com");
+
+   <script>
+function myFunction(text) {
+  var textarea = document.createElement("textarea");
+  textarea.value = text;
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand("copy");
+  document.body.removeChild(textarea);
+  alert("emet's info has been copied to you clipboard")
 }
 </script>
 
