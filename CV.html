@@ -11,12 +11,17 @@
 <h1>EMet LeVY</h1>
 <a class="menu" href="index.html" >Home</a>
 <a style="text-decoration:underline;" class="menu" href="CV.html">CV</a>
-<a class="menu" onclick="myFunction()">Contact</a>
-</center>
-<script>
-function myFunction() {
-  
-  alert("emetlevy@gmail.com");
+<a class="menu" onclick="myFunction('Emetlevy@gmail.com')">Contact</a>
+
+   <script>
+function myFunction(text) {
+  var textarea = document.createElement("textarea");
+  textarea.value = text;
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand("copy");
+  document.body.removeChild(textarea);
+  alert("emet's info has been copied to you clipboard")
 }
 </script>
 
