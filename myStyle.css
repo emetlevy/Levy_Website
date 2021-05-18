@@ -80,7 +80,7 @@ h1{
       position:absolute;left:100px;
       padding-top:20px;
       padding-bottom:50px;
-     cursor: url("happy.png"), auto;
+      cursor: url("happy.png"), auto;
   }
 
   
