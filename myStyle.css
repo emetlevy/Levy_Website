@@ -28,6 +28,7 @@ transition: transform 0.25s ease;
   Color:rgb(178, 204, 178);
   font-weight: 100;
   transform: scaleY(1.5);
+  cursor: url("happy.png"), auto; 
 
 }
 
