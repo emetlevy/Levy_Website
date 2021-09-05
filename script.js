@@ -20,7 +20,7 @@ function showDivs(n) {
 
 //Enlarging images on click 
 
-  img = document.getElementById("Container");
+  img = document.getElementById("myslides");
         // Function to set image dimensions
         function enlargeImg() {
             img.style.width = "60%";
