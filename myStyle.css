@@ -15,11 +15,6 @@ cursor: url("happy.png"), auto;
 transition: transform 0.25s ease; 
 
 }
-.mySlides:active{
-  transform: scale(2);
-  z-index:1;
-
-}
     
 .title{
   text-decoration: none;
