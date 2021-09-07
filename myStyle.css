@@ -8,7 +8,7 @@
   padding-bottom:30px;
 }
 .mySlides {
-width: 375px;
+height: 375px;
 background: transparent no-repeat center;
 cursor: url("happy.png"), auto;
 transition: transform 0.25s ease; 
