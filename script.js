@@ -28,7 +28,7 @@ img = document.getElementById("img1");
   }
   // Function to reset image dimensions
   function resetImg() {
-      img.style.width = "40%";
+      img.style.width = 375px;
       img.style.height = "auto";
       img.style.transition = "width 0.5s ease";
       document.getElementById("Button").style.display= "none";
