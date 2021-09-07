@@ -34,6 +34,7 @@ transition: transform 0.25s ease;
   cursor: url("happy.png"), auto; 
   padding-left:25px;
   padding-bottom:50px;
+  z-index:1;
 }
 
 .button_1{
