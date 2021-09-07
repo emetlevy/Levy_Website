@@ -1,5 +1,3 @@
-
-
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -20,28 +18,29 @@ function showDivs(n) {
 
 //Enlarging images on click 
 
-  img = document.getElementById("mySlides");
-        // Function to set image dimensions
-        function enlargeImg() {
-            img.style.width = "60%";
-            img.style.height = "auto";
-            img.style.transition = "width 0.5s ease";
+img = document.getElementById("img1");
+  // Function to set image dimensions
+  function enlargeImg() {
+      img.style.width = "70%";
+      img.style.height = "auto";
+      img.style.transition = "width 0.5s ease";
+      
+  }
+  // Function to reset image dimensions
+  function resetImg() {
+      img.style.width = "40%";
+      img.style.height = "auto";
+      img.style.transition = "width 0.5s ease";
+      document.getElementById("Button").style.display= "none";
+  }
 
-        }
-        // Function to reset image dimensions
-        function resetImg() {
-            img.style.width = "40%";
-            img.style.height = "auto";
-            img.style.transition = "width 0.5s ease";
-            document.getElementById("Button").style.display= "none";
-        }
-
-        function showbutton(){
-            var x = document.getElementById("Button");
-            if (x.style.display === "none") {
-                x.style.display = "block";
-            } else {
-                x.style.display = "none";
-            }
-        }
-
+  function showbutton(){
+      var x = document.getElementById("Button");
+      var y = document.getElementsByClassName("mySlides");
+      if (x.style.display === "none") {
+          x.style.display = "block";
+      } else {
+        y.style.width === "70%";
+        x.x.style.display = "block";
+      }
+  }
