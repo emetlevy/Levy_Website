@@ -6,6 +6,7 @@
 .Container{
   padding-top:40px;
   padding-bottom:30px;
+  
 }
 .mySlides {
 height: 375px;
@@ -16,6 +17,7 @@ transition: transform 0.25s ease;
 .Name {
   position: relative;left:0%;
   display: inline-block;
+  cursor: url("happy.png"), auto;
 }
 .Name .img-top {
   display: none;
