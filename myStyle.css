@@ -2,6 +2,11 @@
   background-image:none;
   cursor: url("MOUSE.png"), auto; 
 }
+.body:active{
+  background-image:none;
+  cursor: url("MOUSE.png"), auto; 
+}
+
 
 .*{
   cursor: url("MOUSE.png"), auto;
