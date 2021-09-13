@@ -13,13 +13,11 @@
 .mySlides {
 height: 375px;
 background: transparent no-repeat center;
-cursor: url("happy.png"), auto;
 transition: transform 0.25s ease; 
 }
 .Name {
   position: relative;left:0%;
   display: inline-block;
-  cursor: url("happy.png"), auto;
 }
 .Name .img-top {
   display: none;
@@ -32,7 +30,6 @@ transition: transform 0.25s ease;
   display: inline;
 }
 .home{
-cursor: url("happy.png"), auto;
 width:70px;
 position:absolute;left:42%;
 }
@@ -40,7 +37,6 @@ position:absolute;left:42%;
 width:73px;
 }
 .CV{
-  cursor: url("happy.png"), auto;
   width:70px;
   position:absolute;left:48%;
   }
@@ -48,7 +44,6 @@ width:73px;
   width:73px;
   }
   .contact{
-    cursor: url("happy.png"), auto;
     width:80px;
     position:absolute;left:55%;
     }
@@ -58,8 +53,7 @@ width:73px;
 .button_1{
     border: none;
     background: none;
-    position:absolute;left:44%;
-    cursor: url("happy.png"), auto;   
+    position:absolute;left:44%;  
     padding-bottom:50px;
 }
   
@@ -67,21 +61,17 @@ width:73px;
     border: none;
     background: none;
     position:absolute;left:50%;
-    cursor: url("happy.png"), auto;
     padding-bottom:50px;
 }
   .Soon:active{ 
-    cursor: url("happy.png"), auto;
     height:70px; 
   
   }
    .Back:active{
-    cursor: url("happy.png"), auto;
     height:70px; 
   }
   .menu{
       padding-left:15px;
-      cursor: url("happy.png"), auto;
       z-index:100;
   }
 
@@ -90,5 +80,4 @@ width:73px;
       position:absolute;left:100px;
       padding-top:20px;
       padding-bottom:50px;
-      cursor: url("happy.png"), auto;
   }
