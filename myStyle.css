@@ -75,7 +75,17 @@ transition: transform 0.25s ease;
       z-index:100;
   }
 
+.home{
+   cursor: url("happy.png"), auto;
+}
 
+.CV{
+   cursor: url("happy.png"), auto;
+}
+
+.contact{
+   cursor: url("happy.png"), auto;
+}
   pre{
       position:absolute;left:100px;
       padding-top:20px;
