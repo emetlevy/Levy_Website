@@ -61,7 +61,26 @@ function myFunction(text) {
 <button class="button_2" onclick="plusDivs(1)">Soon</button>
 </center>
 
- <script src="script.js"></script>
+ <script >
+ var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+</script>
 </body>
 </html> 
 
