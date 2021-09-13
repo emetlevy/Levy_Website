@@ -1,7 +1,10 @@
 .body{
   background-image:none;
   cursor: url("happy.png"), auto; 
-  
+}
+
+.a{
+  cursor: url("happy.png"), auto;
 }
 .Container{
   padding-top:40px;
