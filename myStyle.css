@@ -3,7 +3,7 @@
   cursor: url("happy.png"), auto; 
 }
 
-.a{
+.*{
   cursor: url("happy.png"), auto;
 }
 .Container{
