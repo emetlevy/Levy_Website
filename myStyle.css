@@ -12,11 +12,7 @@
   cursor: url("MOUSE.png"), auto;
 }
 
-.*:hover{
-  cursor: url("MOUSE.png"), auto;
-}
-
-.*:active{
+.CURSE{
   cursor: url("MOUSE.png"), auto;
 }
 
