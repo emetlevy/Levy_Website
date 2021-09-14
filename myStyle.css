@@ -1,23 +1,20 @@
 .body{
   background-image:none;
-  cursor: url("MOUSE.png"), auto; 
+  cursor: url("MOUSE.cur"), auto; 
 }
 .body:active{
   background-image:none;
-  cursor: url("MOUSE.png"), auto; 
+  cursor: url("MOUSE.cur"), auto; 
 }
 
 
 .*{
-  cursor: url("MOUSE.png"), auto;
+  cursor: url("MOUSE.cur"), auto;
 }
 a{
-  cursor: url("MOUSE.png"), auto;
+  cursor: url("MOUSE.cur"), auto;
 }
 
-.CURSE{
-  cursor: url("MOUSE.png"), auto;
-}
 
 .Container{
   padding-top:40px;
