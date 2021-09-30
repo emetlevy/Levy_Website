@@ -8,12 +8,10 @@
 }
 
 
-.*{
+*{
   cursor: url("MOUSE.cur"), auto;
 }
-a{
-  cursor: url("MOUSE.cur"), auto;
-}
+
 
 
 .Container{
@@ -37,6 +35,7 @@ transition: transform 0.25s ease;
   left: 0;
   z-index:2;
 }
+
 .Name:hover .img-top {
   display: inline;
 }
@@ -67,15 +66,16 @@ width:73px;
 .button_1{
     border: none;
     background: none;
-  position:absolute:left:40%;top:20px;
+    padding-bottom:50px;
+    position:absolute;left:42%;bottom:-130px;
 }
   
   .button_2{
     border: none;
     background: none;
     padding-bottom:50px;
-     position:absolute:left:45%;top:20px;
-}
+    position:absolute;left:48%;bottom:-130px;}
+  
   .Soon:active{ 
     height:70px; 
   
