@@ -7,6 +7,7 @@
   cursor: url("MOUSE.cur"), auto; 
 }
 
+
 .*{
   cursor: url("MOUSE.cur"), auto;
 }
@@ -16,9 +17,8 @@ a{
 
 
 .Container{
-  padding-top:20px;
+  padding-top:0px;
   padding-bottom:30px;
-  position:absolute;left:30%;
 }
 .mySlides {
 height: 375px;
@@ -28,6 +28,7 @@ transition: transform 0.25s ease;
 .Name {
   position: relative;left:0%;
   display: inline-block;
+  z-index:1;
 }
 .Name .img-top {
   display: none;
@@ -66,14 +67,12 @@ width:73px;
 .button_1{
     border: none;
     background: none;
-    position:relative;left:44%; 
-    padding-bottom:50px;
+    position:relative;left:0%;
 }
   
   .button_2{
     border: none;
     background: none;
-    position:relative;left:50%; 
     padding-bottom:50px;
 }
   .Soon:active{ 
@@ -82,7 +81,6 @@ width:73px;
   }
    .Back:active{
     height:70px; 
-    position:absolute
   }
   .menu{
       padding-left:15px;
@@ -97,5 +95,10 @@ width:73px;
   }
 .bird{
   width:200px;
-  z-index:-1;
+  z-index:-3;
+  position:relative;bottom:0px;
+}
+marquee{
+  position:relative;bottom:0px;
+  z-index:-3;
 }
