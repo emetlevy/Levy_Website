@@ -24,6 +24,7 @@ a{
 height: 375px;
 background: transparent no-repeat center;
 transition: transform 0.25s ease; 
+z-index:1;
 }
 .Name {
   position: relative;left:0%;
@@ -34,12 +35,13 @@ transition: transform 0.25s ease;
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 99;
+  z-index:2;
 }
 .Name:hover .img-top {
   display: inline;
 }
 .home{
+z-index:3;
 width:70px;
 position:absolute;left:42%;
 }
@@ -47,6 +49,7 @@ position:absolute;left:42%;
 width:73px;
 }
 .CV{
+  z-index:3;
   width:70px;
   position:absolute;left:48%;
   }
@@ -56,6 +59,7 @@ width:73px;
   .contact{
     width:80px;
     position:absolute;left:55%;
+    z-index:3;
     }
     .contact:active{
     width:83px;
@@ -82,7 +86,7 @@ width:73px;
   }
   .menu{
       padding-left:15px;
-      z-index:100;
+      z-index:3;
   }
 
 
@@ -93,5 +97,5 @@ width:73px;
   }
 .bird{
   width:200px;
-  z-index:-100;
+  z-index:-1;
 }
