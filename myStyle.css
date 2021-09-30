@@ -93,4 +93,5 @@ width:73px;
   }
 .bird{
   width:300px;
+  z-index:-1;
 }
