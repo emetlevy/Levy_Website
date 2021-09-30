@@ -25,7 +25,6 @@ a{
 height: 375px;
 background: transparent no-repeat center;
 transition: transform 0.25s ease; 
-z-index:1;
 }
 .Name {
   position: relative;left:0%;
