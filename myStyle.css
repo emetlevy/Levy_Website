@@ -66,14 +66,14 @@ width:73px;
 .button_1{
     border: none;
     background: none;
-    position:absolute;left:44%;bottom:50px;  
+    position:relative;left:44%; 
     padding-bottom:50px;
 }
   
   .button_2{
     border: none;
     background: none;
-    position:absolute;left:50%;bottom:50px;  
+    position:relative;left:50%; 
     padding-bottom:50px;
 }
   .Soon:active{ 
