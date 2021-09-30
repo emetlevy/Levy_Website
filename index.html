@@ -1,101 +1,78 @@
-.body{
-  background-image:none;
-  cursor: url("MOUSE.cur"), auto; 
-}
-.body:active{
-  background-image:none;
-  cursor: url("MOUSE.cur"), auto; 
-}
+
+<!DOCTYPE html>
+<html>
+<head> 
+ <title>EMET LEVY</title> 
+
+  <link rel = "stylesheet" type = "text/css" href = "myStyle.css" />
+  <link rel="icon" href="ICO.ico"/>
+</head>
+
+<body class="body">
+
+  <center>
+
+<div class="Name">
+<img  style="width:200px;" src="Name.jpg" alt="Card Back">
+<img style="width:200px;" src="Name_An.gif" class="img-top" alt="Card Front">
+</div>
+<div class="menu">
+  <a href="index.html"><img style="cursor: url(MOUSE.cur),auto;z-index:3;" class="home" src="Home.png"></a>
+  <a href="CV.html"><img style="cursor: url(MOUSE.cur),auto;z-index:3;" class="CV" src="CV.png"></a> 
+  <a href="contact.html"><img style="cursor: url(MOUSE.cur),auto;z-index:3;" class="contact" src="Contact.png"></a> 
+  </div>
+
+   <marquee direction="right"><img style="z-index:-1;"class="bird" src="Birds.gif"></marquee> 
 
 
-.*{
-  cursor: url("MOUSE.cur"), auto;
-}
-a{
-  cursor: url("MOUSE.cur"), auto;
+
+<div  class="Container">
+  <img class="mySlides" src="Step.gif"/>
+  <img class="mySlides" src="Sculpture_Boy Trap_1.jpg"  />
+  <img class="mySlides" src="TUG.jpg" />
+  <img class="mySlides" src="Child.jpg"  />
+  <img class="mySlides" src="HI FIVE.jpg" />
+  <img class="mySlides" src="RED SHOOS.jpg"  />
+  <img class="mySlides" src="Bench.jpg"  />
+  <img class="mySlides" src="New Media_Symbol_2.jpg"  />
+  <img class="mySlides" src="HEAD FIRST.jpg" />
+  <img class="mySlides" src="WHY NOT.png" />
+  <img class="mySlides" src="Scultpure_Ping Pong Balls.jpg"  />
+  <img class="mySlides" src="BEHIND.jpg" />
+  <img class="mySlides" src="Lurch.png" />
+  <img class="mySlides" src="Dancing.jpg" />
+  <img class="mySlides" src="HAIR copy.jpg"  />
+  <img class="mySlides" src="YE.jpg"/>
+  <img class="mySlides" src="GLasses.jpg"/>
+  <img class="mySlides" src="KNEE.jpg"/>
+  <img class="mySlides" src="Sculpture_Final Project_1.jpg" />
+  <img class="mySlides" src="STAN.png"/>
+  <img class="mySlides" src="Stop.png"/>
+</div>
+
+<button class="button_1" style="cursor: url(MOUSE.cur),auto;" onclick="plusDivs(-1)"><img class="Back" style="width:100px;cursor: url(MOUSE.cur),auto;" src="BACK.png"></button>
+<button class="button_2" style="cursor: url(MOUSE.cur),auto;" onclick="plusDivs(1)"><img class="Soon" style="width:100px;cursor: url(MOUSE.cur),auto;" src="Soon.png"></button>
+</center>
+   
+ <script >
+ var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
 }
 
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
 
-.Container{
-  padding-top:20px;
-  padding-bottom:30px;
-  position:absolute;left:33%;top:150px;
-}
-.mySlides {
-height: 375px;
-background: transparent no-repeat center;
-transition: transform 0.25s ease; 
-}
-.Name {
-  position: relative;left:0%;
-  display: inline-block;
-}
-.Name .img-top {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index:2;
-}
-.Name:hover .img-top {
-  display: inline;
-}
-.home{
-z-index:3;
-width:70px;
-position:absolute;left:42%;
-}
-.home:active{
-width:73px;
-}
-.CV{
-  z-index:3;
-  width:70px;
-  position:absolute;left:48%;
-  }
-  .CV:active{
-  width:73px;
-  }
-  .contact{
-    width:80px;
-    position:absolute;left:55%;
-    z-index:3;
-    }
-    .contact:active{
-    width:83px;
-    }
-.button_1{
-    border: none;
-    background: none;
-    position:absolute;left:44%;bottom:20px;  
-    padding-bottom:50px;
-}
-  
-  .button_2{
-    border: none;
-    background: none;
-    position:absolute;left:50%;bottom:20px;  
-    padding-bottom:50px;
-}
-  .Soon:active{ 
-    height:70px; 
-  
-  }
-   .Back:active{
-    height:70px; 
-  }
-  .menu{
-      padding-left:15px;
-      z-index:3;
-  }
-
-
-  pre{
-      position:absolute;left:100px;
-      padding-top:20px;
-      padding-bottom:50px;
-  }
-.bird{
-  width:200px;
-  z-index:-1;
-}
+</script>
+</body>
+</html> 
