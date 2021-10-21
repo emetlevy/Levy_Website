@@ -11,6 +11,7 @@
 <body class="body">
 
   <center>
+<div class="loader"><img src="Loading.gif" alt="Loading..."></div>
 
 <div class="Name">
 <img  style="width:200px;" src="Name.jpg" alt="Card Back">
@@ -73,6 +74,12 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";  
 }
+  
+   window.addEventListener("load",function(){
+     const loader= document.querySelector(".loader");
+     loader.className+=" hidden";
+
+   });
 
 </script>
 </body>
