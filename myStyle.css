@@ -42,7 +42,7 @@ transition: transform 0.25s ease;
 .home{
 z-index:3;
 width:70px;
-position:absolute;left:42%;
+position:absolute;left:38%;
 }
 .home:active{
 width:73px;
@@ -50,7 +50,7 @@ width:73px;
 .CV{
   z-index:3;
   width:70px;
-  position:absolute;left:48%;
+  position:absolute;left:44%;
   }
   .CV:active{
   width:73px;
@@ -58,14 +58,14 @@ width:73px;
 .Sketches{
   z-index:3;
   width:70px;
-  position:absolute;left:54%;
+  position:absolute;left:50%;
   }
   .Sketches:active{
   width:73px;
   }
   .contact{
     width:80px;
-    position:absolute;left:60%;
+    position:absolute;left:56%;
     z-index:3;
     }
     .contact:active{
