@@ -44,9 +44,6 @@ z-index:3;
 width:70px;
 position:absolute;left:38%;
 }
-.home:hover{
-  positionr:relative;top:5px;
-}
 .home:active{
 width:73px;
 }
@@ -55,9 +52,6 @@ width:73px;
   width:70px;
   position:absolute;left:44%;
   }
-.CV:hover{
-  positionr:relative;top:5px;
-}
   .CV:active{
   width:73px;
   }
@@ -66,9 +60,6 @@ width:73px;
   width:70px;
   position:absolute;left:50%;
   }
-.Sketches:hover{
-  positionr:relative;top:5px;
-}
   .Sketches:active{
   width:73px;
   }
@@ -77,9 +68,6 @@ width:73px;
     position:absolute;left:56%;
     z-index:3;
     }
-.contact:hover{
-  positionr:relative;top:5px;
-}
     .contact:active{
     width:83px;
     }
